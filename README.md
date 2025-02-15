@@ -46,4 +46,4 @@ https://www.youtube.com/watch?v=sVbEyFZKgqk&list=PLr3d3QYzkw2xabQRUpcZ_IBk9W50M9
 
 Here is an example of what the table should look like
 
-![Sample Output](result.png)
+![Sample Output](https://raw.githubusercontent.com/ggelashvili/learnphptherightway-project/refs/heads/1.31/result.png)
