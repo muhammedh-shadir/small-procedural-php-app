@@ -40,7 +40,12 @@
                             <td><?= formatDate($transaction['date']) ?></td>
                             <td><?= $transaction['checkNumber'] ?></td>
                             <td><?= $transaction['description'] ?></td>
-                            <td><?= formatDollarAmount($transaction['amount']) ?></td>
+                            <td>
+                                <?php $amount = $transaction['amount'] ?>
+                                <span style="color: <?= $amount > 0 ? 'green' : ($amount < 0 ? 'red' : 'black') ?>">
+                                    <?= formatDollarAmount($amount) ?>
+                                </span>
+                            </td>
                         </tr>
                     <?php endforeach ?>
 
